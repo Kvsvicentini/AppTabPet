@@ -4,4 +4,14 @@
     <string name="cachorro">Cachorro</string>
     <string name="gato">Gato</string>
     <string name="peixe">Peixe</string>
+    <string name="shopping">Shopping</string>
+    <string name="lojas">Lojas</string>
+    <string name="cinema">Cinema</string>
+    <string name="restaurante">Restaurante</string>
+    <string name="parques">Parques</string>
+    <string name="estacionamento">Estacionamento</string>
+    <string name="cl_nica">Clínica</string>
+    <string name="academia">Academia</string>
+    <string name="arrow_back">Arrow Back</string>
+    <string name="favoritar">Favoritar</string>
 </resources>

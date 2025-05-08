@@ -16,7 +16,7 @@
         android:layout_marginTop="10sp"
         android:layout_marginBottom="10sp"
         android:text="@string/animais"
-        android:textColor="#213AF3"
+        android:textColor="#673AB7"
         android:textSize="30sp"
         android:textStyle="bold" />
 
@@ -27,22 +27,25 @@
         android:layout_below="@+id/txtAnimais">
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/idTbItemCachorro"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/cachorro"
-            android:id="@+id/idTbItemCachorro"/>
+            android:icon="@drawable/dog_icon"
+            android:text="@string/cachorro" />
 
-    <com.google.android.material.tabs.TabItem
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/gato"
-        android:id="@+id/idTbItemGato"/>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/idTbItemGato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/cat_icon"
+            android:text="@string/gato" />
 
-    <com.google.android.material.tabs.TabItem
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/peixe"
-        android:id="@+id/idTbItemPeixe"/>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/idTbItemPeixe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/fish_icon"
+            android:text="@string/peixe" />
 
     </com.google.android.material.tabs.TabLayout>
 
