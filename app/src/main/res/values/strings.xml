@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="animais">Animais</string>
+    <string name="cachorro">Cachorro</string>
+    <string name="gato">Gato</string>
+    <string name="peixe">Peixe</string>
+</resources>
